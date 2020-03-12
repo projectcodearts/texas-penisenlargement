@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width: 1024px) and (max-width: 1200px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 991px) {    
+   .mobile-logo-back{ display: block; width: 100%; padding: 15px; background-color: #fff; text-align: center;}
+    .mobile-logo-back img{ width: 234px; display: block}
+    
+    .responsive-menu{ padding: 0 0 15px 0;}
+    .responsive-menu .right-details .contact-details{ width: 100%;}
+    .responsive-menu .right-details .contact-details li{ margin: 0 0 15px 0; width: 100%; padding: 15px 0 !important;  float: left; border: #ddd 1px solid; list-style: none; background-color: transparent !important;}
+    .responsive-menu .right-details .get-quote-button{    margin: 0 0 0 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{width: 100%;}
+    .responsive-menu{ text-align: center;}
+    .responsive-menu .logo{ margin: 0 0 15px 0; float: none;}
+    .responsive-menu .right-details{ float: none; display: inline-block; width: 100%; padding: 0 15px;}
+    .responsive-menu .right-details .contact-details{ margin: 0 0 0 0; padding: 0 !important; width: 100%;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative; margin: 0 0 15px 0;}
+    
+    .responsive-menu .right-details .contact-details li a{ font-weight: 700; color: #313437; margin: 0; padding:0; text-decoration: none; font-size: 18px; background-color:  transparent !important; border-bottom: none !important;}
+    .responsive-menu .right-details .contact-details li a span{ font-size: 13px; color: #b1b1b1; display: block; text-transform: uppercase; margin: 0 0 7px 0; letter-spacing: 2px;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative;  margin: 0 0 15px 0; display: inline-block;}
+    .responsive-menu .right-details .get-quote-button{  display: inline-block; vertical-align: middle; margin: 0 0 0 0; padding: 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{ width: 100%; height: 52px; background-color: #006aa8; color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; float: left; text-align: center; line-height: 57px; text-decoration: none;}
+    .responsive-menu .right-details{ display: block;}
+	
+	.mobile-logo-back{ display: block; width: 100%; padding: 15px; background-color: #fff; text-align: center;}
+    .mobile-logo-back img{ width: 234px; display: block;margin-left: 0;width: 120px;}
+    
+    .responsive-menu{ padding: 0 0 15px 0;}
+    .responsive-menu .right-details .contact-details{ width: 100%;}
+    .responsive-menu .right-details .contact-details li{ margin: 0 0 15px 0; width: 100%; padding: 15px 0 !important;  float: left; border: #ddd 1px solid; list-style: none; background-color: transparent !important;}
+    .responsive-menu .right-details .get-quote-button{    margin: 0 0 0 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{width: 100%;}
+    .responsive-menu{ text-align: center;}
+    .responsive-menu .logo{ margin: 0 0 15px 0; float: none;}
+    .responsive-menu .right-details{ float: none; display: inline-block; width: 100%; padding: 0 15px;}
+    .responsive-menu .right-details .contact-details{ margin: 0 0 0 0; padding: 0 !important; width: 100%;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative; margin: 0 0 15px 0;}
+    
+    .responsive-menu .right-details .contact-details li a{ font-weight: 700; color: #313437; margin: 0; padding:0; text-decoration: none; font-size: 18px; background-color:  transparent !important; border-bottom: none !important;}
+    .responsive-menu .right-details .contact-details li a span{ font-size: 13px; color: #b1b1b1; display: block; text-transform: uppercase; margin: 0 0 7px 0; letter-spacing: 2px;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative;  margin: 0 0 15px 0; display: inline-block;}
+    .responsive-menu .right-details .get-quote-button{  display: inline-block; vertical-align: middle; margin: 0 0 0 0; padding: 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{ width: 100%; height: 52px; background-color: #006aa8; color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; float: left; text-align: center; line-height: 57px; text-decoration: none;}
+    .responsive-menu .right-details{ display: block;}
+	
+	
+/*=====================================dp-header-css===================================================*/
+	
+	.header-top {display: none;}
+	.logo {display: inline-block;margin-top: 20px;}
+	header .main-menu {background-color: transparent;}
+	header .main-menu .details li {margin: 0 0px 0 0px;}
+	.mobile-logo-back {margin-top: 0px;}
+	
+	.contact-details {display: block;}
+	
+/*=====================================dp-header-css-end===================================================*/
+	
+	
+	
+	.custom-banner {margin-top: 0px;}
+	
+}
+
+
+@media (max-width: 767px){
+    .call-to-us-left {min-height: auto;}
+	.dp-caption h2 {font-size: 38px;}
+	.custom-banner .carousel-item img {height: 420px;}
+	.dp-caption {bottom: 20px;}
+	.call-to-us {transform: translateY(0px);padding-top: 40px;}
+	.call-to-us-right {padding: 30px 40px 26px;}
+}
+@media only screen and (max-width: 480px) {	
+    
+}
+

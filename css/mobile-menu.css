@@ -1,0 +1,55 @@
+.responsive-menu .fa.fa-plus-circle{ display: none;}
+.mobile-toggle-button{ display: none; position: absolute; top: 0px; right: 30px; border: #000 2px solid; width: 40px; height: 40px; border-radius: 5px; cursor: pointer; margin: 15px 0 0 0;}
+.mobile-toggle-button span{ width: 22px; height: 3px; background: #000; float: left; position: absolute; top: 0; bottom: 0; right: 0; left: 0; margin: auto;}
+.mobile-toggle-button span:before{width: 50%; height: 3px; background: #ff5d28; content: ""; position: absolute; top: -7px; left: 0; }
+.mobile-toggle-button span:after{width: 50%; height: 3px; background: #ff5d28; content: ""; position: absolute; top: 7px; left: 0; }
+.mobile-toggle-button.close span{ background-color: #ff5d28; opacity: 1; transform: rotate(45deg); -webkit-transform: rotate(45deg); }
+.mobile-toggle-button.close span:before{ width: 100%; background-color: #ff5d28; transform: rotate(-270deg) translate(7px, 0); -webkit-transform: rotate(-270deg) translate(7px, 0);}
+.mobile-toggle-button.close span:after{ display: none;}
+.mobile-toggle-button.close{ z-index: 1; border-color: #000; right: 15px; top: 0; bottom: 0; margin: auto;  opacity: 1;margin-top: 10px;}
+
+
+@media only screen and (max-width:991px){
+.mobile-toggle-button{ display: block;}
+.responsive-menu{position: fixed; top: 0; right: -100%; background-color: #272727; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; z-index: 1; width: 100%; height: 100%; overflow: auto;}
+.responsive-menu.open{ right: 0;}
+.responsive-menu ul{  width: 100%; overflow: auto;     padding: 15px !important;   }
+header .main-menu .details li ul{ width: 100%;}
+.responsive-menu ul li{ width: 100%; margin: 0 0 0 0; padding: 0 !important;}
+.responsive-menu ul li a{ width: 100%; padding: 10px 0 10px 15px;}
+.responsive-menu ul li ul{ position: relative !important; visibility: visible !important; -webkit-visibility: visible !important; opacity: 1 !important; top: 0 !important; padding: 0 !important; transition: none; -webkit-transition: none !important; -moz-transition: none; -o-transition: none; -ms-transition: none;/*visibility: hidden; -webkit-visibility: hidden; opacity: 0; height: 0 !important; top: 0 !important; padding: 0 !important; transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out;*/}
+/*.responsive-menu ul li.sub-menu-click.open ul{ visibility: visible; -webkit-visibility: visible; opacity:1; height: auto !important;}
+.responsive-menu ul li.sub-menu-click.open ul li.sub-menu-click-sub ul{ visibility: hidden; -webkit-visibility: hidden; opacity:0; height: 0 !important;}*/
+/*.responsive-menu ul li.sub-menu-click.open ul li.sub-menu-click-sub.open ul{ visibility: visible; -webkit-visibility: visible; opacity:1; height: auto !important; border-radius: 0;}
+.responsive-menu ul li.sub-menu-click.open ul li.sub-menu-click-sub ul li a{ background-color: #333 !important; border-color: #000 !important; padding-left: 30px !important;}*/
+/*.responsive-menu ul li.sub-menu-click.open ul li.sub-menu-click-sub ul li a:hover{ background-color: #000 !important;}*/
+
+.responsive-menu ul li ul li > ul{ left: 0 !important; background-color: #333; border-color: #000 !important;}
+.responsive-menu ul li ul li > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li ul li > ul li ul li a{ border-color: #333; background-color: #000;     padding: 10px 5px 10px 45px; }
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li ul li:hover > ul li ul li a{ border-color: #333 !important; background-color: #000 !important;      padding: 10px 5px 10px 45px; }
+.responsive-menu ul li ul li:hover > ul li:hover ul li a{ border-color: #333 !important; background-color: #000 !important;      padding: 10px 5px 10px 45px; }
+.responsive-menu ul li ul li > ul li a:hover{ background-color: #000 !important; }
+header .main-menu .details li ul li > ul li ul li a:hover{ background-color: #333 !important; }
+.responsive-menu ul li:hover a{ background-color: transparent !important; color: #fff !important;}
+.responsive-menu ul li a:focus{ background-color: #333 !important;}
+.responsive-menu ul li ul li a{ background-color: #ff5d28 !important;}
+.responsive-menu ul li ul li a:hover{background-color: #ec440d !important;}
+.responsive-menu ul li.current-menu-item a{ background-color: #000 !important; color: #fff !important;}
+.responsive-menu ul li.current-menu-item a:hover{background-color: #333 !important;}
+.responsive-menu ul li a{ background-color: #000 !important; color: #fff !important; border-bottom: #333 1px solid;}
+.responsive-menu .fa.fa-caret-down{ display: none;}
+.responsive-menu .fa.fa-plus-circle{ display: inline-block !important;}
+.responsive-menu .fa.fa-caret-down{ display: none;}
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li .plus{ position: absolute; top: 6px; right: 10px;   width: 30px; height: 30px; background-color: #000;  cursor: pointer;}
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li .minus{ position: absolute; top: 6px; right: 10px;  width: 30px; height: 30px; background-color: #000; cursor: pointer;}
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li .plus:before{ width: 10px; height: 2px; background-color: #fff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; content: "";}
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li .plus:after{ width: 2px; height: 10px; background-color: #fff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; content: "";}
+.responsive-menu ul li ul li:hover > ul li a{ border-color: #000;     padding: 10px 5px 10px 30px; }
+.responsive-menu ul li .minus:before{ width: 10px; height: 3px; background-color: #fff; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; content: "";}
+}
