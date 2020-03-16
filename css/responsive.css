@@ -1,14 +1,42 @@
 @charset "utf-8";
 /* CSS Document */
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+	header .main-menu .details li {margin: 0 0px 0 14px;}
+	header .main-menu .details li a {font-size: 11px;}
+	.dp-caption h2 {font-size: 42px;}
+	.call-to-us-call h5 a {font-size: 19px;}
+	.call-to-us-right {padding: 60px 20px 26px;}
+	.call-to-us-right-left-video p {font-size: 14px;}
+	.custom-about-content {margin-top: 30px;}
+	.custom-heading {margin-bottom: 20px;}
+	.custom-about-content p {font-size: 16px;}
+	.about-list li {font-size: 14px;margin-bottom: 6px;}
+	.about-list {margin-top: 20px;}
+	.custom-heading h3 {font-size: 34px;line-height: 46px;}
+	.traditional-surgery-custom-content h4 {font-size: 38px;line-height: 50px;}
+	.prucedure-content h4 {font-size: 18px;}
+	.blog-content h4 {font-size: 18px;line-height: 26px;padding-right: 50px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+	header .main-menu .details li {margin: 0 0px 0 14px;}
+	header .main-menu .details li a {font-size: 11px;}
+	.dp-caption h2 {font-size: 42px;}
+	.call-to-us-call h5 a {font-size: 19px;}
+	.call-to-us-right {padding: 60px 20px 26px;}
+	.call-to-us-right-left-video p {font-size: 14px;}
+	.custom-about-content {margin-top: 30px;}
+	.custom-heading {margin-bottom: 20px;}
+	.custom-about-content p {font-size: 16px;}
+	.about-list li {font-size: 14px;margin-bottom: 6px;}
+	.about-list {margin-top: 20px;}
+	.custom-heading h3 {font-size: 34px;line-height: 46px;}
+	.traditional-surgery-custom-content h4 {font-size: 38px;line-height: 50px;}
+	.prucedure-content h4 {font-size: 18px;}
+	.blog-content h4 {font-size: 18px;line-height: 26px;padding-right: 50px;}
 }
 
-@media only screen and (max-width: 991px) {    
+@media (min-width: 768px) and (max-width: 991px) {    
    .mobile-logo-back{ display: block; width: 100%; padding: 15px; background-color: #fff; text-align: center;}
     .mobile-logo-back img{ width: 234px; display: block}
     
@@ -55,8 +83,7 @@
 /*=====================================dp-header-css===================================================*/
 	
 	.header-top {display: none;}
-	.logo {display: inline-block;margin-top: 20px;}
-	header .main-menu {background-color: transparent;}
+	.logo {display: inline-block;margin-top: 12px;margin-bottom: 10px;}
 	header .main-menu .details li {margin: 0 0px 0 0px;}
 	.mobile-logo-back {margin-top: 0px;}
 	
@@ -68,18 +95,179 @@
 	
 	.custom-banner {margin-top: 0px;}
 	
+	
+	.dp-caption h2 {font-size: 31px;line-height: 34px;}
+	.call-to-us-call h5 a {font-size: 14px;}
+	.call-to-us-right {padding: 60px 20px 26px;}
+	.call-to-us-right-left-video p {font-size: 9px;line-height: 15px;}
+	.custom-about-content {margin-top: 0px;}
+	.custom-heading {margin-bottom: 20px;}
+	.custom-about-content p {font-size: 13px;line-height: 20px;}
+	.about-list li {font-size: 13px;margin-bottom: 4px;line-height: 18px;}
+	.about-list {margin-top: 20px;}
+	.custom-heading h3 {font-size: 29px;line-height: 35px;}
+	.traditional-surgery-custom-content h4 {font-size: 38px;line-height: 50px;}
+	.prucedure-content h4 {font-size: 18px;}
+	.blog-content h4 {font-size: 17px;padding-right: 10px;}
+	
+	.dp-caption p {font-size: 13px;line-height: 20px;}
+	.call-to-us-call h5 span {width: 20%;}
+	.call-to-us-call h5 {padding-left: 40px;font-size: 13px;padding-top: 0px;}
+	.call-to-us-call h5 span img{width: 100%;}
+	.call-to-us-left h4 {font-size: 16px;}
+	.free-cons-btn {font-size: 10px;padding: 4px 19px;}
+	.call-to-us-right h4 {font-size: 15px;}
+	.table.dp-table tr td {font-size: 10px;}
+	.custom-heading span {font-size: 12px;}
+	
+	.traditional-surgery-custom-content h4 {font-size: 24px;line-height: 37px;}
+	.traditional-surgery-custom-content {padding: 40px 0;}
+	.custom-pad {padding: 40px 0;}
+	.custom-before-after-content p {padding-bottom: 0px;font-size: 15px;}
+	.blog-date h5 {font-size: 20px;}
+	.blog-date h5 span {font-size: 11px;}
+	.blog-date {width: 60px;height: 51px;}
+	.blog-content {padding: 36px 14px 26px;}
+	.footer-col-1 {margin-bottom: 20px;}
+	.footer-btm-left p {font-size: 14px;}
+	
 }
 
 
 @media (max-width: 767px){
+	
+	.mobile-logo-back{ display: block; width: 100%; padding: 15px; background-color: #fff; text-align: center;}
+    .mobile-logo-back img{ width: 234px; display: block}
+    
+    .responsive-menu{ padding: 0 0 15px 0;}
+    .responsive-menu .right-details .contact-details{ width: 100%;}
+    .responsive-menu .right-details .contact-details li{ margin: 0 0 15px 0; width: 100%; padding: 15px 0 !important;  float: left; border: #ddd 1px solid; list-style: none; background-color: transparent !important;}
+    .responsive-menu .right-details .get-quote-button{    margin: 0 0 0 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{width: 100%;}
+    .responsive-menu{ text-align: center;}
+    .responsive-menu .logo{ margin: 0 0 15px 0; float: none;}
+    .responsive-menu .right-details{ float: none; display: inline-block; width: 100%; padding: 0 15px;}
+    .responsive-menu .right-details .contact-details{ margin: 0 0 0 0; padding: 0 !important; width: 100%;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative; margin: 0 0 15px 0;}
+    
+    .responsive-menu .right-details .contact-details li a{ font-weight: 700; color: #313437; margin: 0; padding:0; text-decoration: none; font-size: 18px; background-color:  transparent !important; border-bottom: none !important;}
+    .responsive-menu .right-details .contact-details li a span{ font-size: 13px; color: #b1b1b1; display: block; text-transform: uppercase; margin: 0 0 7px 0; letter-spacing: 2px;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative;  margin: 0 0 15px 0; display: inline-block;}
+    .responsive-menu .right-details .get-quote-button{  display: inline-block; vertical-align: middle; margin: 0 0 0 0; padding: 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{ width: 100%; height: 52px; background-color: #006aa8; color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; float: left; text-align: center; line-height: 57px; text-decoration: none;}
+    .responsive-menu .right-details{ display: block;}
+	
+	.mobile-logo-back{ display: block; width: 100%; padding: 15px; background-color: #fff; text-align: center;}
+    .mobile-logo-back img{ width: 234px; display: block;margin-left: 0;width: 120px;}
+    
+    .responsive-menu{ padding: 0 0 15px 0;}
+    .responsive-menu .right-details .contact-details{ width: 100%;}
+    .responsive-menu .right-details .contact-details li{ margin: 0 0 15px 0; width: 100%; padding: 15px 0 !important;  float: left; border: #ddd 1px solid; list-style: none; background-color: transparent !important;}
+    .responsive-menu .right-details .get-quote-button{    margin: 0 0 0 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{width: 100%;}
+    .responsive-menu{ text-align: center;}
+    .responsive-menu .logo{ margin: 0 0 15px 0; float: none;}
+    .responsive-menu .right-details{ float: none; display: inline-block; width: 100%; padding: 0 15px;}
+    .responsive-menu .right-details .contact-details{ margin: 0 0 0 0; padding: 0 !important; width: 100%;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative; margin: 0 0 15px 0;}
+    
+    .responsive-menu .right-details .contact-details li a{ font-weight: 700; color: #313437; margin: 0; padding:0; text-decoration: none; font-size: 18px; background-color:  transparent !important; border-bottom: none !important;}
+    .responsive-menu .right-details .contact-details li a span{ font-size: 13px; color: #b1b1b1; display: block; text-transform: uppercase; margin: 0 0 7px 0; letter-spacing: 2px;}
+    .responsive-menu .right-details .contact-details li .icon{ position: relative;  margin: 0 0 15px 0; display: inline-block;}
+    .responsive-menu .right-details .get-quote-button{  display: inline-block; vertical-align: middle; margin: 0 0 0 0; padding: 0; width: 100%;}
+    .responsive-menu .right-details .get-quote-button a{ width: 100%; height: 52px; background-color: #006aa8; color: #fff; font-size: 13px; font-weight: 700; text-transform: uppercase; float: left; text-align: center; line-height: 57px; text-decoration: none;}
+    .responsive-menu .right-details{ display: block;}
+	
+	
+/*=====================================dp-header-css===================================================*/
+	
+	.header-top {display: none;}
+	.logo {display: inline-block;margin-top: 12px;margin-bottom: 10px;}
+	header .main-menu .details li {margin: 0 0px 0 0px;}
+	.mobile-logo-back {margin-top: 0px;}
+	
+	.contact-details {display: block;}
+	
+/*=====================================dp-header-css-end===================================================*/
+	
+	
+	.custom-banner {
+    margin-top: 0px;
+}
+	
+	
     .call-to-us-left {min-height: auto;}
-	.dp-caption h2 {font-size: 38px;}
+	.dp-caption h2 {font-size: 38px;line-height: 46px;}
 	.custom-banner .carousel-item img {height: 420px;}
-	.dp-caption {bottom: 20px;}
+	.dp-caption {bottom: 36px;background-color:rgba(255,255,255,0.42);padding: 20px 10px;}
 	.call-to-us {transform: translateY(0px);padding-top: 40px;}
-	.call-to-us-right {padding: 30px 40px 26px;}
+	.call-to-us-right {padding: 30px 34px 26px;}
+	.banner-btn {font-size: 12px;padding: 10px 20px;margin-top: 16px;}
+	.call-to-us-right-right h4 {margin-bottom: 6px !important;}
+	.call-to-us-right-right {padding-top: 20px;}
+	.custom-about-content {margin-top: 40px;margin-bottom: 40px;}
+	.custom-heading h3 {font-size: 28px;line-height: 36px;}
+	.custom-heading span {font-size: 13px;}
+	.custom-heading {margin-bottom: 10px;}
+	.custom-about-content p {font-size: 14px;}
+	.about-list {margin-top: 20px;}
+	.about-list li {line-height: 20px;padding-left: 28px;font-size: 13px;}
+	.about-list li::before {top: 7px;}
+	.free-cons-btn {font-size: 12px;padding: 8px 12px;}
+	.traditional-surgery-custom .pl-5{padding-left: 15px !important;}
+	.traditional-surgery-custom-content h4 {font-size: 32px;line-height: 44px;padding-bottom: 6px;}
+	.traditional-surgery-custom-content {padding: 40px 0;text-align: center;}
+	.traditional-surgery-custom-content p {font-size: 13px;margin-bottom: 0px;}
+	.custom-before-after-image {margin-bottom: 20px;}
+	.custom-pad {padding: 40px 0;}
+	.custom-before-after.custom-pad {padding-top: 70px;}
+	.custom-before-after-content p {padding-bottom: 0px;font-size: 15px;}
+	.custom-procedures .custom-heading {margin-bottom: 20px;}
+	.procedure-wrapper {margin-bottom: 26px;}
+	.custom-procedures .container .row .col-md-4:nth-child(3) .procedure-wrapper{margin-bottom: 0;}
+	.prucedure-content {padding: 20px 20px;}
+	.custom-heading p {font-size: 13px;line-height: 20px;}
+	.blog-top-btn-dp {text-align: left;padding-bottom: 20px;margin-top: 6px;}
+	.blog-img img {width: 100%;}
+	.blog-content h4 {font-size: 18px;margin-bottom: 12px !important;}
+	.blog-wrapper {margin-bottom: 30px;}	
+	.custom-blog .container .row .col-md-4:nth-child(3) .blog-wrapper{margin-bottom: 0;}
+	.custom-footer {padding: 40px 0 0px;}
+	.footer-col h4 {margin-bottom: 8px !important;}
+	.footer-col {margin-bottom: 20px;}
+	.footer-btm {margin-top: 10px;}
+	.footer-btm-left p {text-align: center;margin-bottom: 14px;font-size: 13px;}
+	.footer-btm-right {text-align: center;}
+	
 }
 @media only screen and (max-width: 480px) {	
-    
+    .dp-caption h2 {font-size: 28px;line-height: 38px;}
+	.footer-col p {font-size: 13px;}
+	.footer-col ul li a {font-size: 13px;}
+	.footer-col ul li {margin-bottom: 4px;}
+	.custom-banner .carousel-item img {object-position: 60% 100%;}
 }
+@media only screen and (max-width: 420px) {
+	.traditional-surgery-custom-content h4 {font-size: 26px;line-height: 40px;}
+	
+}
+@media only screen and (max-width: 390px) {
+	.dp-caption p {font-size: 13px;line-height: 21px;}
+	.custom-heading h3 {font-size: 20px;line-height: 25px;}
+	.traditional-surgery-custom-content h4 {font-size: 22px;line-height: 32px;}
+}
+@media only screen and (max-width: 360px) {
+	.dp-caption h2 {font-size: 24px;line-height: 34px;margin-bottom: 10px !important;}
+	.call-to-us-call h5 a {font-size: 18px;}
+	.call-to-us-right h4 {font-size: 17px;}
+	.call-to-us-right-left-video p {font-size: 10px;line-height: 16px;}
+	.call-to-us-right-left-video span::after {height: 80px;width: 80px;}
+	.call-to-us-right-left-video span a {height: 42px;width: 42px;line-height: 43px;}
+	.table.dp-table tbody tr td{font-size: 12px;}
+	.prucedure-content h4 {font-size: 16px;margin-bottom: 8px !important;}
+	.blog-content h4 {font-size: 16px;margin-bottom: 12px !important;padding-right: 0px;}
+	.blog-content {padding: 50px 30px 20px;}
+}
+
+
 

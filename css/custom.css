@@ -60,6 +60,7 @@ h2, h3, h4, h5, h6 {
 .top-header-left li:nth-child(1){margin-right: 40px;}
 .header-social li a {font-size: 16px;color: #000;}
 .top-header-btn {font-size: 13px;background-color: #ff5d28;font-weight: 800;padding: 10px 20px;color: #fff;margin-left: 30px;}
+.top-header-btn:hover{color: #fff;}
 
 /*=====header-top-end=====*/
 
@@ -112,7 +113,14 @@ header .main-menu .details li ul li:hover > ul{top: 0; left: 100%; opacity: 1; v
 .custom-banner .carousel-item img{height: 707px;object-fit: cover;}
 
 .banner-btn {background-color: #fff;font-size: 14px;font-weight: 700;color:#262626;display: inline-block;padding: 13px 36px;margin-top:22px;
-    border-radius: 2px;}
+    border-radius: 2px;position: relative;z-index: 9;transition: all 0.3s ease-in-out;}
+
+.banner-btn:after{content: '';position: absolute;left: 0;right:0;width: 100%;top: 0;bottom:auto;height: 0%;background-color: #ff5d28;z-index: -1;transition: all 0.3s ease-in-out;}
+
+.banner-btn:hover{color: #fff;}
+.banner-btn:hover:after{height: 100%;bottom: 0;top: auto;}
+
+.free-cons-btn:after{content: '';position: absolute;left: 0;right:0;width: 100%;top: 0;bottom:auto;height: 0%;background-color: #ff5d28;z-index: -1;transition: all 0.3s ease-in-out;}
 
 .custom-banner {margin-top: 62px;}
 
@@ -134,7 +142,22 @@ header .main-menu .details li ul li:hover > ul{top: 0; left: 100%; opacity: 1; v
 
 .call-to-us-left h4 {font-size: 18px;color: #fff;font-weight: 800;line-height: 28px;padding-top: 10px;}
 
-.free-cons-btn {font-size: 14px;font-weight: 700;color: #fff;border: 2px solid #fff;border-radius: 2px;display: inline-block;padding: 11px 21px;margin-top: 20px;}
+.free-cons-btn {font-size: 14px;font-weight: 700;color: #fff;border: 2px solid #fff;border-radius: 2px;display: inline-block;padding: 11px 21px;margin-top: 20px;position: relative;z-index: 9;transition: all 0.3s ease-in-out;}
+
+.free-cons-btn:hover{background-color: #ff5d28;}
+.free-cons-btn:hover:after{height: 100%;bottom: 0;top: auto;}
+
+.free-cons-btn:after{content: '';position: absolute;left: 0;right:0;width: 100%;top: 0;bottom:auto;height: 0%;background-color: #fff;z-index: -1;transition: all 0.3s ease-in-out;}
+.custom-about-content .free-cons-btn:after{background-color: #ff5d28;}
+.custom-about-content .free-cons-btn:hover{color: #fff;}
+
+.traditional-surgery-custom-content .free-cons-btn:after{background-color: #ff5d28;}
+.traditional-surgery-custom-content .free-cons-btn:hover{color: #fff;}
+
+.blog-top-btn-dp .free-cons-btn:after{background-color: #ff5d28;}
+.blog-top-btn-dp .free-cons-btn:hover{color: #fff;}
+.read-more-btn:hover{color: #000;}
+
 
 .call-to-us-right {background-color: #fff;border-bottom: 2px solid #f45926;border-radius: 2px;padding: 60px 40px 26px;min-height: 292px;
 box-shadow: 0px 2px 18px rgba(0,0,0,0.06);}
@@ -280,6 +303,8 @@ transform: translateY(-50%);}
 
 .blog-content p{font-size: 15px;color: #a0a0a0;margin-bottom: 16px;}
 
+.procedure-img img {width: 100%;}
+
 /*===========================================footer===================================================*/
 
 .custom-footer{
@@ -337,7 +362,9 @@ transform: translateY(-50%);}
     margin-bottom: 0;
 }
 
-
+.custom-before-after {
+    display: none;
+}
 
 
 
